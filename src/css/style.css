@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff') format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff') format('woff');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.woff') format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn-reset {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.link {
+    display: inline-block;
+    text-indent: 10px;
+    border-bottom: 1px solid currentColor;
+    font-weight: 700;
+    font-size: 16px;
+    /* line-height: 1px; */
+    text-decoration: none;
+    color: #D4D6D4;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    position: absolute;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.burger {
+    background-color: #f5f6f7;
+    padding: 14px 11px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.hero {
+    padding-top: 189px;
+    padding-bottom: 30px;
+    background-image: url('../img/Slider.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    max-width: 616px;
+    color: #fff;
+}
+
+.hero-subtitle {
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+
+}
+
+.hero-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
